@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<center>
+<form>
+Etunimi:<br> 
+<input type="text" name="enimi"><br>
+Sukunimi:<br>
+<input type="text" name="snimi"><br>
+Katuosoite:<br>
+<input type="text" name="katu"><br>
+Postitoimipaikka: <br>
+<input type="text" name="ppaikka"><br>
+Postinumero: <br>
+<input type="text" name="pnro" size="5" min="5" max="5" required><br>
+Puhelinnumero: <br>
+<input type="text" name="puhno" size="8" min="5" max="11" pattern="[0-9]" required><br>
+Sähköposti: <br>
+<input type="email"><br>
+Päivämäärä: <br>
+<input type="date"><br>
+Tilattava määrä: <br>
+<input type="number" name="maara" size="5" min="1" max="5" required><br>
+Tilattava peli: <br>
+<select>
+<option value="Salibandy">Salibandy</option>
+<option value="Golf">Golf</option>
+<option value="Tennis">Tennis</option>
+
+<p><input type="submit" value="tilaa"></p>
+</br>
+</form>
+</center>
+<center>
+<form>
+  <input type="radio" name="gender" value="male" checked> Mies<br>
+  <input type="radio" name="gender" value="female"> Nainen<br>
+  <input type="radio" name="gender" value="other"> Muu
+  
+</form>
+</center>
+
+
+</body>
+</html>
